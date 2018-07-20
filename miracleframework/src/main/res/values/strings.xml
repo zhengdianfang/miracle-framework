@@ -1,3 +1,5 @@
-<resources>
-    <string name="app_name">MiracleFramework</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="load_more_text">loading</string>
+    <string name="load_more_fail_text">loading fail</string>
+    <string name="load_more_end_text">end</string>
 </resources>

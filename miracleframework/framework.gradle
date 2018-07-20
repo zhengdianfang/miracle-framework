@@ -1,4 +1,4 @@
 ext {
-    supportLibVersion="26.1.0"
+    supportLibVersion="27.1.1"
     rxJava="2.1.14-RC1"
 }

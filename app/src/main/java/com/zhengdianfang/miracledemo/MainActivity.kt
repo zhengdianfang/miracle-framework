@@ -10,7 +10,7 @@ class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        loadRootFragment(android.R.id.content, FirstFragment.newInstance())
+        loadRootFragment(android.R.id.content, MultiListFragment.newInstance())
         MiraclePermissions(this)
                 .request(Manifest.permission.CAMERA)
                 .subscribe { granted ->
