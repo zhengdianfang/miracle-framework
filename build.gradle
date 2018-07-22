@@ -46,6 +46,9 @@ dependencies {
     //router
     api "com.alibaba:arouter-api:${ARouterVersion}"
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+    //http
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
     // test
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.robolectric:robolectric:3.8'
