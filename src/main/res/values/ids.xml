@@ -5,4 +5,8 @@
     <item name="BaseQuickAdapter_viewholder_support" type="id"/>
     <item name="BaseQuickAdapter_swiping_support" type="id"/>
     <item name="BaseQuickAdapter_dragging_support" type="id"/>
+    <item name="navigationBarPopButton" type="id" />
+    <item name="navigationBar" type="id" />
+    <item name="navigationBarTitleView" type="id" />
+
 </resources>
