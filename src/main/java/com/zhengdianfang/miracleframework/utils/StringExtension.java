@@ -11,4 +11,8 @@ public class StringExtension {
         Matcher matcher = pattern.matcher(email);
         return matcher.matches();
     }
+
+    public static boolean isValidatePhone(String username) {
+        return Phone.isPhone(username);
+    }
 }
