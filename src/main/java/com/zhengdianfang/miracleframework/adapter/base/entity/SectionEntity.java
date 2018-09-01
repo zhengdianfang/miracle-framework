@@ -1,8 +1,6 @@
 package com.zhengdianfang.miracleframework.adapter.base.entity;
 
-import java.io.Serializable;
-
-public abstract class SectionEntity<T> implements Serializable {
+public abstract class SectionEntity<T> {
     public boolean isHeader;
     public T t;
     public String header;
