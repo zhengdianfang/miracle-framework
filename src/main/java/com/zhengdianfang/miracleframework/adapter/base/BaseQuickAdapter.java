@@ -660,7 +660,10 @@ public abstract class BaseQuickAdapter<T, K extends BaseViewHolder> extends Recy
 
 
     public int getHeaderLayoutCount() {
-        return 0;
+        if (headerLayout == null || headerLayout.getChildCount() == 0) {
+            return 0;
+        }
+        return 1;
     }
 
     public OnItemClickListener getOnItemClickListener() {
